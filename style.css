@@ -36,13 +36,20 @@ a {
     text-align: center;}
 }
 .img-container {
-  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 img {
+  display: flex;
+  flex-grow: 1;
   margin: 20px;
   min-width: 150px;
   width: 15%;
-  height: auto;
+  height: 300px;
+  max-width: 100%
+
 }
 @media screen and(max-width: 700px) {
     img {width: 50%;}
